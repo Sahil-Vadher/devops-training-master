@@ -11,7 +11,7 @@ Resources:
     Type: AWS::CloudFormation::Stack
     DependsOn: IAMRolesStack
     Properties:
-      TemplateURL: ./lambda-deploy.yml
+      TemplateURL: https://devops-training-bucket-test-1.s3.eu-north-1.amazonaws.com/lambda-deploy.yml
 
   EC2Instance:
     Type: AWS::EC2::Instance
