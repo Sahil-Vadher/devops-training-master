@@ -5,7 +5,7 @@ Resources:
   IAMRolesStack:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: ./roles.yml
+      TemplateURL: https://devops-training-bucket-test-1.s3.eu-north-1.amazonaws.com/roles.yml
   
   LambdaStack:
     Type: AWS::CloudFormation::Stack
